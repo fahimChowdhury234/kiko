@@ -41,17 +41,6 @@ const modalWin = () => {
          disableLoader();
       }, 1500);
    };
-   //  const createModalButton = () => {
-   //     const modalButtonOk = document.createElement("button");
-   //     modalButtonOk.style.display = "inline-block";
-   //     modalButtonOk.classList.add("button", "modal__button", "modal__button-ok");
-   //     modalButtonOk.innerText = texts.button.toUpperCase();
-   //     modalButtonOk.ariaLabel = texts.button;
-   //     modalContent.appendChild(modalButtonOk);
-   //     modalButtonOk.focus();
-   //     modalButtonOk.addEventListener("click", handlerClickOk);
-
-   //  };
    const createModalButton = () => {
       const modalButtonOk = document.createElement("a"); // Create an anchor tag
       modalButtonOk.style.display = "inline-block";
